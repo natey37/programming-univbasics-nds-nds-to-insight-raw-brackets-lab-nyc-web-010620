@@ -2,7 +2,11 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pp'
 
+<<<<<<< HEAD
 #puts pp directors_database
+=======
+puts pp directors_database
+>>>>>>> ef9e7f9b87dbef4d74a021a26e325f00ea778fb5
 def directors_totals(nds)
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
@@ -20,6 +24,7 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
+<<<<<<< HEAD
   directors_hash = {} 
   inner_index = 0
   
@@ -36,3 +41,7 @@ def directors_totals(nds)
   puts directors_hash
   directors_hash
 end
+=======
+  
+end
+>>>>>>> ef9e7f9b87dbef4d74a021a26e325f00ea778fb5
